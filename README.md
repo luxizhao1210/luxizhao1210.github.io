@@ -1,128 +1,79 @@
-<div align="center">
-  <img src="your_photo.jpg" width="200" style="border-radius: 8px; margin-bottom: 20px;">
-  
-  [![Email](https://img.shields.io/badge/Email-contact%40institution.edu-blue?logo=gmail)](mailto:contact@institution.edu)
-  [![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-blue?logo=google-scholar)](https://scholar.google.com/citations?user=ID)
-  [![CV](https://img.shields.io/badge/CV-PDF%20Download-green)](cv_link)
+<div align="center" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 800px; margin: 0 auto;">
+
+  <!-- 头部 -->
+  <div style="padding: 20px 0; border-bottom: 2px solid #eaecef;">
+    <img src="your_photo.jpg" width="150" style="border-radius: 50%; margin-bottom: 15px;">
+    <h1 style="color: #24292e; margin: 5px 0;">Your Name</h1>
+    <div style="color: #586069;">
+      Professor of Computer Science<br>
+      <a href="https://your-lab-link.com" style="color: #0366d6; text-decoration: none;">Research Group Name</a> 
+      @ University Name
+    </div>
+  </div>
+
+  <!-- 导航菜单 -->
+  <div style="margin: 20px 0; display: flex; justify-content: center; gap: 25px; flex-wrap: wrap;">
+    <a href="#bio" style="color: #0366d6; text-decoration: none;">Bio</a>
+    <a href="#publications" style="color: #0366d6; text-decoration: none;">Publications</a>
+    <a href="#software" style="color: #0366d6; text-decoration: none;">Software</a>
+    <a href="#contact" style="color: #0366d6; text-decoration: none;">Contact</a>
+  </div>
+
+  <!-- 内容区块 -->
+  <div style="text-align: left; line-height: 1.6; color: #24292e;">
+
+    <!-- Bio -->
+    <h2 id="bio" style="color: #24292e; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em;">📜 Bio</h2>
+    <p>Your research introduction...</p>
+    <ul>
+      <li>Key research area 1</li>
+      <li>Key research area 2</li>
+    </ul>
+
+    <!-- Publications -->
+    <h2 id="publications" style="color: #24292e; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em;">📚 Publications</h2>
+    <div style="margin: 15px 0;">
+      <div style="margin-bottom: 12px;">
+        <strong>Paper Title 1</strong><br>
+        Authors, Conference/Journal, Year<br>
+        [<a href="#" style="color: #0366d6;">PDF</a>] 
+        [<a href="#" style="color: #0366d6;">Code</a>]
+      </div>
+      <!-- 更多论文条目 -->
+    </div>
+
+    <!-- Software -->
+    <h2 id="software" style="color: #24292e; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em;">💻 Software</h2>
+    <div style="display: flex; gap: 20px; flex-wrap: wrap; margin: 15px 0;">
+      <div style="flex: 1; min-width: 250px; background: #f6f8fa; padding: 15px; border-radius: 6px;">
+        <h3 style="margin-top: 0;">Project Name</h3>
+        <p>Project description...</p>
+        <div>[<a href="#" style="color: #0366d6;">GitHub</a>] [<a href="#" style="color: #0366d6;">Demo</a>]</div>
+      </div>
+      <!-- 更多项目卡片 -->
+    </div>
+
+    <!-- Contact -->
+    <h2 id="contact" style="color: #24292e; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em;">📬 Contact</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
+      <div>
+        <strong>Office</strong><br>
+        Building Name, Room 123<br>
+        City, Country
+      </div>
+      <div>
+        <strong>Email</strong><br>
+        <a href="mailto:contact@university.edu" style="color: #0366d6;">contact@university.edu</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 页脚 -->
+  <div style="margin-top: 30px; padding: 20px 0; color: #586069; font-size: 0.9em;">
+    Last update: Month Year | 
+    <a href="#" style="color: #0366d6;">CV</a> | 
+    <a href="#" style="color: #0366d6;">Google Scholar</a>
+  </div>
+
 </div>
-
-# [Your Full Name]
-
-**Position**  
-[Professor/Researcher] at [Institution Name]  
-[Lab Website](https://lab-website.com) | [Department Page](https://dept-page.com)
-
----
-
-## 🔍 Quick Navigation
-[• Bio](#-bio) | [• Publications](#-publications) | [• Software](#-software) | [• Teaching](#-teaching) | [• Team](#-team) | [• Contact](#-contact)
-
----
-
-## 📜 Bio
-**Research Focus**  
-Developing [核心研究领域描述，例如："formal methods for distributed systems"]. Current projects include:
-- [研究方向1] (e.g., "Model checking for IoT protocols")
-- [研究方向2] (e.g., "Resource-aware scheduling algorithms")
-
-**Education**  
-- **Ph.D.** in [专业], [大学名称], [年份]  
-  *(Advisor: [导师姓名])*  
-- **M.Sc.** in [专业], [大学名称], [年份]  
-- **B.Sc.** in [专业], [大学名称], [年份]  
-
-**[完整简历下载](#contact)**
-
----
-
-## 📚 Publications 
-### Selected Papers
-1. **"[论文标题1]"**  
-   *First Author, Co-author*  
-   [**Venue**] [会议/期刊名称] ([年份])  
-   [📄 Paper](link) | [💻 Code](link) | [📊 Dataset](link)
-
-2. **"[论文标题2]"**  
-   *First Author, Co-author*  
-   [**Venue**] [会议/期刊名称] ([年份])  
-   [📄 Preprint](link) | [🎥 Talk Video](link)
-
-### Full List
-- [Google Scholar 档案](https://scholar.google.com)
-- [DBLP 页面](https://dblp.org)
-- [按年份排列的完整列表](publications.md)
-
----
-
-## 💻 Software
-### Research Tools
-**▶ [项目名称1]** ([GitHub](link))  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxxx)  
-*技术栈: Python, C++, Docker*  
-- 功能描述1 (e.g., "Distributed model checker")
-- 功能描述2 (e.g., "GUI visualization module")
-
-**▶ [项目名称2]** ([项目主页](link))  
-*技术栈: Rust, WebAssembly*  
-- 核心算法描述
-- 性能基准测试结果
-
-### Open-Source Contributions
-- **[知名项目1](link)**  
-  Contributed [具体贡献描述] (e.g., "Optimized memory management in v2.4")
-- **[知名项目2](link)**  
-  Added [新功能描述] (e.g., "Implemented TLS 1.3 support")
-
----
-
-## 🎓 Teaching
-### Current Courses
-- **[课程代码] [课程名称]**  
-  *学期, 年份*  
-  [📚 Syllabus](link) | [📝 Assignments](link)
-
-### Past Courses
-- "[课程名称]" (年份)  
-  *特色内容: [教学创新点描述]*
-
-### Student Supervision
-**PhD Students**  
-- [学生姓名] ([个人主页](link)): [研究方向]  
-- [学生姓名]: [研究方向]  
-
-**Master's Theses**  
-- "[论文标题]", [学生姓名], [年份] ([PDF](link))
-
----
-
-## 👥 Research Team
-**Group Members**  
-| Name              | Role          | Research Focus         |
-|-------------------|---------------|------------------------|
-| [成员1姓名]       | PhD Candidate | [具体研究方向]         |
-| [成员2姓名]       | Postdoc       | [具体研究方向]         |
-
-**Collaborators**  
-- [合作者姓名], [机构名称]
-- [合作者姓名], [机构名称]
-
-[加入我们的团队](#contact)
-
----
-
-## 📬 Contact
-**Office**  
-[建筑名称] Room [房间号]  
-[机构地址]
-
-**Electronic**  
-- Email: [primary@institution.edu](mailto:primary@institution.edu) (优先)  
-- Alternative: [secondary@institution.edu](mailto:secondary@institution.edu)  
-
-**Social**  
-[![Twitter](https://img.shields.io/badge/Twitter-专业账号-blue?logo=twitter)](https://twitter.com/yourhandle)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-学术档案-blue?logo=linkedin)](https://linkedin.com/in/yourprofile)
-
----
-
-<sub>🔄 最后更新: Month Year | [更新日志](CHANGELOG.md)</sub>
